@@ -37,7 +37,7 @@ function UserMenu() {
                                 {
                                     data.map(item => (
                                         <div className='col-4'>
-                                            <img src={`${baseUrl}/Uploads/${item.image}`} alt="" className='img-fluid' style={{height:'600px',width:'500px'}} />
+                                            <img src={`${baseUrl}/uploads/${item.image}`} alt="" className='img-fluid' style={{height:'600px',width:'500px'}} />
                                         </div>))
                                 }
                             </>

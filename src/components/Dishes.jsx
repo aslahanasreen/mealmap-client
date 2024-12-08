@@ -73,7 +73,7 @@ function Dishes() {
                                         dishes.map(item => (
                                             <Col sm={12} md={3} className='mb-5' >
                                                <div className='d-flex flex-column justify-content-center align-items-center'>
-                                                    <img src={`${baseUrl}/Uploads/${item.image}`}
+                                                    <img src={`${baseUrl}/uploads/${item.image}`}
                                                         alt="" className='img-fluid shadow' style={{ borderRadius: '50%',height:'200px', width:'200px' }} />
                                                </div>
                                                 <div className='d-flex flex-column justify-content-center align-items-center mt-3'>

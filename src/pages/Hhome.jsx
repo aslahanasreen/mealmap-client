@@ -70,7 +70,7 @@ function Hhome() {
                   {
                     dish.map(item => (
                       <Col sm={12} md={4} className='p-5'>
-                        <img src={`${baseUrl}/Uploads/${item.image}`} alt="" className='img-fluid mb-2' style={{height:'500px'}} />
+                        <img src={`${baseUrl}/uploads/${item.image}`} alt="" className='img-fluid mb-2' style={{height:'500px'}} />
                         <div className='text-center'>
                           <h5>{item.type=="non-veg"?<i className="fa-regular fa-square-caret-up me-1" style={{color: "#ed1d27",}}/>:<i className="fa-regular fa-square-caret-down" style={{color: "#0ab80d",}} />}{'   '}{item.name}</h5>
                           <p><i className="fa-solid fa-indian-rupee-sign" /> {item.price}</p>

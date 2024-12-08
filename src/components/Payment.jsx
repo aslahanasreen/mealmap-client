@@ -122,7 +122,7 @@ function Payment() {
     }
 
     async function convertFilePathToFile(fileName) {
-        const response = await fetch(`${baseUrl}/Uploads/${fileName}`);
+        const response = await fetch(`${baseUrl}/uploads/${fileName}`);
         const blob = await response.blob(); // Convert the response to a Blob
         const file = new File([blob], fileName, { type: blob.type }); // Create a File object
         return file;
@@ -218,7 +218,7 @@ function Payment() {
                                 <p>Total Amount : {paymentt.tamount}</p>
                             </Col>
                             <Col sm={12} md={4} >
-                                <img src={`${baseUrl}/Uploads/${dishResponse?.image}`}
+                                <img src={`${baseUrl}/uploads/${dishResponse?.image}`}
                                     alt="" className='img-fluid' style={{ height: '150px', width: '40%' }} />
                             </Col>
                         </Row>

@@ -51,7 +51,7 @@ function YourOrders() {
                                 orders.map(item => (
                                     <Row className='p-5'>
                                         <Col sm={12} md={4}>
-                                            <img src={`${baseUrl}/Uploads/${item.image}`} alt="" className='img-fluid' style={{height:'400px'}} />
+                                            <img src={`${baseUrl}/uploads/${item.image}`} alt="" className='img-fluid' style={{height:'400px'}} />
                                         </Col>
                                         <Col sm={12} md={8}>
                                             <h3>{item.dishName}</h3>
