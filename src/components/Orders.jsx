@@ -69,7 +69,7 @@ function Orders() {
                                 {
                                     orders.map(item => (
                                         <Card style={{ width: '18rem' }} className='col-4 me-5 mb-5'>
-                                            <Card.Img variant="top" src={`${baseUrl}/uploads/${item.image}`}
+                                            <Card.Img variant="top" src={`${baseUrl}/Uploads/${item.image}`}
                                                 className='img-fluid' style={{ height: '350px' }} />
                                             <Card.Body>
                                                 <Card.Title className='text-center'>{item.dishName}</Card.Title>

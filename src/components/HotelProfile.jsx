@@ -144,7 +144,7 @@ function HotelProfile() {
 
           <div className='row'>
             <div className='col-md-4 col-sm-12'>
-              <img src={`${baseUrl}/uploads/${sessionStorage.getItem('image')}`}
+              <img src={`${baseUrl}/Uploads/${sessionStorage.getItem('image')}`}
                 alt="" className='img-fluid' style={{ height: '400px', borderRadius: '50%' }} />
             </div>
             <div className='col-md-8 col-sm-12 d-flex justify-content-center align-items-center'>

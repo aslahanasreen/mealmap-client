@@ -56,7 +56,7 @@ function Menu() {
                                 {
                                     menu.map(item => (
                                         <div className="p-5 d-flex flex-column justify-content-center align-items-center">
-                                            <img src={`${baseUrl}/uploads/${item.image}`}
+                                            <img src={`${baseUrl}/Uploads/${item.image}`}
                                                 alt="" className='img-fluid' style={{ width: '700px' }} />
                                             <button className='btn' onClick={() => handleDelete(item._id)}><i className="fa-solid fa-trash fa-xl" style={{ color: "#f9242f", }} /></button>
                                         </div>

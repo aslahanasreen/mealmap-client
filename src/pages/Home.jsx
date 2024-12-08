@@ -82,7 +82,7 @@ function Home() {
                                 {
                                     hotels.map(item => (
                                         <Card style={{ width: '18rem' }} className='col-sm-12 col-md-4 mx-5 mb-5'>
-                                            <Card.Img variant="top" src={`${baseUrl}/uploads/${item.image}`} style={{ height: '300px' }} />
+                                            <Card.Img variant="top" src={`${baseUrl}/Uploads/${item.image}`} style={{ height: '300px' }} />
                                             <Card.Body>
                                                 <Card.Title className='text-center'>{item.name}</Card.Title>
                                                 <Card.Text className='text-center'>
